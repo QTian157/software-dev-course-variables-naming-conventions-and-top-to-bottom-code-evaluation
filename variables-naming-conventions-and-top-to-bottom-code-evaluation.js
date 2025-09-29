@@ -24,9 +24,20 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+// let a = "Alice";
+// let b = 5;
+// let c = 20;
+// let d = a + " bought " + b + " items for $" + c + ".";
 
-console.log(d);
+// console.log(d);
+
+let clientName = "Alice";
+let quantities = 5;
+let totalPrice = 20;
+
+let itemName = "apple";
+let perPrice = totalPrice / quantities;
+
+let purchaseRecord = clientName + " brought" + quantities + " " + itemName + " items for $" + totalPrice + perPrice + " each" + ".";
+
+console.log(purchaseRecord);
